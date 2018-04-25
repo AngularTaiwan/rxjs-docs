@@ -1,34 +1,34 @@
 {
   "MENU": {
-    "HOME": "Home",
-    "INSTALLATION": "Installation",
-    "OPERATORS": "Operators",
-    "COMPANIES": "Companies",
-    "TEAM": "Team"
+    "HOME": "首頁",
+    "INSTALLATION": "安裝",
+    "OPERATORS": "運算式",
+    "COMPANIES": "企業",
+    "TEAM": "團隊"
   },
   "OPERATOR": {
     "PARAMETER": {
-      "TITLE": "Parameters",
-      "NAME": "Name",
-      "TYPE": "Type",
-      "ATTRIBUTE": "Attribute",
-      "DESCRIPTION": "Description"
+      "TITLE": "引數",
+      "NAME": "名稱",
+      "TYPE": "類別",
+      "ATTRIBUTE": "屬性",
+      "DESCRIPTION": "描述"
     },
     "ADDITIONAL_RESOURCES": {
       "TITLE": "Additional Resources",
-      "SOURCE": "Source Code",
-      "SPECS": "Specs"
+      "SOURCE": "程式碼",
+      "SPECS": "測試檔案"
     },
     "EXAMPLES": {
-      "TITLE": "Examples"
+      "TITLE": "範例s"
     },
     "RELATED_OPERATORS": {
-      "TITLE": "Related Operators"
+      "TITLE": "相關運算式"
     },
     "WALKTHROUGH": {
       "TITLE": "Walkthrough"
     },
-    "NO_TRANSLATION": "Translation not completed. See the description in English"
+    "NO_TRANSLATION": "翻譯尚未完成，請參閱英文版文件"
   },
   "HOME": {
     "TITLE": "Reactive Extensions Library for JavaScript",
