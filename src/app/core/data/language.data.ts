@@ -10,5 +10,10 @@ export const languagesList: Lang[] = [
     code: 'ru',
     name: 'Russian',
     nativeName: 'Русский'
+  },
+  {
+    code: 'zh-TW',
+    name: 'Traditional Chinese',
+    nativeName: '正體中文'
   }
 ];

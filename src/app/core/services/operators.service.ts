@@ -27,6 +27,11 @@ export class OperatorsService {
           this._operators.next(module.ALL_OPERATORS_RU);
         });
         break;
+      case 'zh-TW':
+        import('../../../i18n/zh-TW').then(module => {
+          this._operators.next(module.ALL_OPERATORS_ZH_TW);
+        });
+        break;
       default:
         import('../../../operator-docs').then(module => {
           this._operators.next(module.ALL_OPERATORS_EN);
