@@ -28,7 +28,7 @@
     "WALKTHROUGH": {
       "TITLE": "詳細解釋"
     },
-    "NO_TRANSLATION": "翻譯尚未完成，請參閱英文版文件"
+    "NO_TRANSLATION": "尚未完成翻譯，請參閱英文版文件"
   },
   "HOME": {
     "TITLE": "Reactive Extensions Library for JavaScript",
@@ -37,36 +37,33 @@
       "RxJS is a library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code. This project is a rewrite of Reactive-Extensions/RxJS with better performance, better modularity, better debuggable call stacks, while staying mostly backwards compatible, with some breaking changes that reduce the API surface",
     "INSTALL": {
       "TITLE": "安裝",
-      "DESCRIPTION": " Find information on how to install RxJs from different sources from <i>npm </i>to<i> CDN</i>"
+      "DESCRIPTION": " 更多資訊關於如何從<i>npm </i>到<i> CDN</i>安裝 RxJS"
     },
     "LEARN": {
       "TITLE": "學習",
-      "DESCRIPTION":
-        "Read the full documentation on <i>Observables</i>, <i>Observer</i>, <i>Subject</i>, etc. In addition, View live examples alongside documentation with diagrams which helps you understand better in action"
+      "DESCRIPTION": "閱讀關於 <i>Observables</i>, <i>Observer</i>, <i>Subject</i> 等完整文件。更多的內容，包含範例程式碼、圖表說明來幫助你更了解整體的運作方式"
     }
   },
   "INSTALLATION": {
     "TITLE": "安裝指南",
     "VIA": "透過",
     "INTRO": "下面是各種安裝 RxJs 的方式",
-    "IMPORT": "To import the entire core set of functionality",
+    "IMPORT": "引用所有核心方法",
     "PATCHING": "To import only what you need by patching (this is useful for size-sensitive bundling)",
     "WITHBIND": "To import what you need and use it with proposed <a href=\"#/operators\">bind operator</a>:",
     "NOTE":
       "Note: This additional syntax requires transpiler support and this syntax may be completely withdrawn from TC39 without notice! Use at your own risk.",
     "ERROR":
-      "If you receive an error like <code class=\"inline\">error TS2304: Cannot find name 'Promise' or error TS2304: Cannot find name 'Iterable'</code> when using RxJS you may need to install a supplemental set of typings.",
-    "TYPINGUSERS": "For <span class=\"accent\">typings</span> users:",
-    "NOTINTERFACE":
-      "If you're not using typings the interfaces can be copied from <span class=\"accent\">/es6-shim/es6-shim.d.ts.</span>",
-    "ADDTYPE": "Add type definition file included in <code class=\"inline\">tsconfig.json</code> or CLI argument.",
-    "ALLMODULETYPES": "All Module Types",
-    "VIAV3": "To install this library via npm version 3, use the following command",
-    "VIAV2":
-      "If you are using npm version 2 before this library has achieved a stable version, you need to specify the library version explicitly",
+      "當使用 RxJS 時，如果你收到錯誤訊息如 <code class=\"inline\">error TS2304: Cannot find name 'Promise' or error TS2304: Cannot find name 'Iterable'</code> 你需要安裝補充的型別定義檔",
+    "TYPINGUSERS": "給 <span class=\"accent\">typings</span>  使用者:",
+    "NOTINTERFACE": "如果你沒有使用型別，介面可以從 <span class=\"accent\">/es6-shim/es6-shim.d.ts.</span> 複製",
+    "ADDTYPE": "加入型別定義檔案至 <code class=\"inline\">tsconfig.json</code> 或是 CLI 參數",
+    "ALLMODULETYPES": "所有模組類型",
+    "VIAV3": "透過 npm 3 安裝套件時，可使用下列命令",
+    "VIAV2": "如果在套件標示成穩定版前使用 npm 2.x 安裝時，你需要給予特定版號",
     "FORCDN": {
-      "PART1": "For CDN, you can use.",
-      "PART2": "Just replace version with the current version on the link below"
+      "PART1": "針對 CDN，你可以使用.",
+      "PART2": "只要將下列連結中的 version 替換成目前版號"
     },
     "FORBETA1": "針對 RxJS 5.0.0-beta.1 至 beta.11",
     "FORBETA12": "針對 RxJS 5.0.0-beta.12 或更高版本",
