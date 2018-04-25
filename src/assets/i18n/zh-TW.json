@@ -10,14 +10,14 @@
     "PARAMETER": {
       "TITLE": "引數",
       "NAME": "名稱",
-      "TYPE": "類別",
+      "TYPE": "類型",
       "ATTRIBUTE": "屬性",
       "DESCRIPTION": "描述"
     },
     "ADDITIONAL_RESOURCES": {
-      "TITLE": "Additional Resources",
+      "TITLE": "其他資源",
       "SOURCE": "程式碼",
-      "SPECS": "測試檔案"
+      "SPECS": "測試程式碼"
     },
     "EXAMPLES": {
       "TITLE": "範例"
@@ -26,29 +26,29 @@
       "TITLE": "相關運算式"
     },
     "WALKTHROUGH": {
-      "TITLE": "Walkthrough"
+      "TITLE": "詳細解釋"
     },
     "NO_TRANSLATION": "翻譯尚未完成，請參閱英文版文件"
   },
   "HOME": {
     "TITLE": "Reactive Extensions Library for JavaScript",
-    "GETSTARTED": "Get started",
+    "GETSTARTED": "開始使用",
     "DESCRIPTION":
       "RxJS is a library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code. This project is a rewrite of Reactive-Extensions/RxJS with better performance, better modularity, better debuggable call stacks, while staying mostly backwards compatible, with some breaking changes that reduce the API surface",
     "INSTALL": {
-      "TITLE": "Install it",
+      "TITLE": "安裝",
       "DESCRIPTION": " Find information on how to install RxJs from different sources from <i>npm </i>to<i> CDN</i>"
     },
     "LEARN": {
-      "TITLE": "Learn it",
+      "TITLE": "學習",
       "DESCRIPTION":
         "Read the full documentation on <i>Observables</i>, <i>Observer</i>, <i>Subject</i>, etc. In addition, View live examples alongside documentation with diagrams which helps you understand better in action"
     }
   },
   "INSTALLATION": {
-    "TITLE": "Installation instructions",
-    "VIA": "via",
-    "INTRO": "Here are different ways you can install RxJs",
+    "TITLE": "安裝指南",
+    "VIA": "透過",
+    "INTRO": "下面是各種安裝 RxJs 的方式",
     "IMPORT": "To import the entire core set of functionality",
     "PATCHING": "To import only what you need by patching (this is useful for size-sensitive bundling)",
     "WITHBIND": "To import what you need and use it with proposed <a href=\"#/operators\">bind operator</a>:",
@@ -68,9 +68,9 @@
       "PART1": "For CDN, you can use.",
       "PART2": "Just replace version with the current version on the link below"
     },
-    "FORBETA1": "For RxJS 5.0.0-beta.1 through beta.11",
-    "FORBETA12": "For RxJS 5.0.0-beta.12 and higher",
-    "ADDITIONALRESOURCES": "Additional resources",
-    "OPERATORS": "Operators"
+    "FORBETA1": "針對 RxJS 5.0.0-beta.1 至 beta.11",
+    "FORBETA12": "針對 RxJS 5.0.0-beta.12 或更高版本",
+    "ADDITIONALRESOURCES": "其他資源",
+    "OPERATORS": "運算式"
   }
 }
